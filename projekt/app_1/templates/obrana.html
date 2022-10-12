@@ -1,0 +1,11 @@
+{% block obrana %}
+<h1>Redovni:</h1>
+{% for student in redovni %}
+{{student.username}}<br>
+{% endfor %}
+
+<h1>Izvanredni:</h1>
+{% for student in izvanredni %}
+{{student.username}}<br>
+{% endfor %}
+{% endblock  %}

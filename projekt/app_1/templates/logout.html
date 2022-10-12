@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="centerdiv">
+  <p>You have successfully signed out!</p>
+
+  <p>Click <a href="{% url 'login' %}" class="link-btn"> here </a> to sign in again.</p>
+</div>
+{% endblock content %}
